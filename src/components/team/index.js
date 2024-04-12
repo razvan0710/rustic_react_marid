@@ -26,16 +26,16 @@ function Team({ teamItems }) {
                                     <div className={teamMemberImage}>
                                         <Link href="/about">
                                             {/* <a> */}
-                                                <Image
-                                                    src={teamItem?.image}
-                                                    alt={teamItem?.title}
-                                                    width={343}
-                                                    height={409}
-                                                    layout="responsive"
-                                                    objectFit="cover"
-                                                    quality={70}
-                                                    priority
-                                                />
+                                            <Image
+                                                src={teamItem?.image}
+                                                alt={teamItem?.title}
+                                                width={343}
+                                                height={409}
+                                                layout="responsive"
+                                                objectFit="cover"
+                                                quality={70}
+                                                priority
+                                            />
                                             {/* </a> */}
                                         </Link>
                                         <div className="team-social-wrap duration-500 absolute bottom-[15px] right-[-175px] z-[1] group-hover:right-[20px]">
@@ -43,28 +43,28 @@ function Team({ teamItems }) {
                                                 <li className="duration-300 hover:text-black mr-[20px]">
                                                     <Link href="https://twitter.com/">
                                                         {/* <a target="_blank"> */}
-                                                            <TwitterIcon />
+                                                        <TwitterIcon />
                                                         {/* </a> */}
                                                     </Link>
                                                 </li>
                                                 <li className="duration-300 hover:text-black mr-[20px]">
                                                     <Link href="https://facebook.com/">
                                                         {/* <a> */}
-                                                            <FacebookIcon />
+                                                        <FacebookIcon />
                                                         {/* </a> */}
                                                     </Link>
                                                 </li>
                                                 <li className="duration-300 hover:text-black mr-[20px]">
                                                     <Link href="https://www.instagram.com/">
                                                         {/* <a> */}
-                                                            <InstagramIcon />
+                                                        <InstagramIcon />
                                                         {/* </a> */}
                                                     </Link>
                                                 </li>
                                                 <li className="duration-300 hover:text-black">
                                                     <Link href="https://linkedin.com/">
                                                         {/* <a> */}
-                                                            <LinkedinIcon />
+                                                        <LinkedinIcon />
                                                         {/* </a> */}
                                                     </Link>
                                                 </li>
@@ -75,7 +75,7 @@ function Team({ teamItems }) {
                                         <h3>
                                             <Link href="/about">
                                                 {/* <a className="transition-all hover:text-[#caac6b] text-[24px] leading-[31px]"> */}
-                                                    {teamItem?.memberName}
+                                                {teamItem?.memberName}
                                                 {/* </a> */}
                                             </Link>
                                         </h3>

@@ -88,7 +88,7 @@ function PricingTab({ pricingItems }) {
                                         </ul>
                                         <Link href="/about">
                                             {/* <a className="boxed-outline-btn"> */}
-                                                Get Started Now
+                                            Get Started Now
                                             {/* </a> */}
                                         </Link>
                                     </div>
@@ -143,7 +143,7 @@ function PricingTab({ pricingItems }) {
                                         </ul>
                                         <Link href="/about">
                                             {/* <a className="boxed-outline-btn"> */}
-                                                Get Started Now
+                                            Get Started Now
                                             {/* </a> */}
                                         </Link>
                                     </div>
@@ -156,7 +156,7 @@ function PricingTab({ pricingItems }) {
                     You have a large team?
                     <Link href="/contact">
                         {/* <a className="underline text-[#0099ff] m-[5px]"> */}
-                            Contact us
+                        Contact us
                         {/* </a> */}
                     </Link>
                     for information about more enterprise options

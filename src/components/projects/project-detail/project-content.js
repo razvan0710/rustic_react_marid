@@ -20,8 +20,8 @@ function ProjectContent({ project }) {
                     <div className="navigation pb-[50px]">
                         <Link href="/projects">
                             {/* <a className="flex items-center text-[14px] leading-6 uppercase"> */}
-                                <IoMdGrid className="text-[20px] mr-5" />
-                                Back to Projects
+                            <IoMdGrid className="text-[20px] mr-5" />
+                            Back to Projects
                             {/* </a> */}
                         </Link>
                     </div>

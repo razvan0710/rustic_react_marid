@@ -40,16 +40,14 @@ function Brand({ brandItems, settings }) {
                                 <div className="brand-item">
                                     <div className={brandImage}>
                                         <Link href="#">
-                                            
-                                                <Image
-                                                    src={brandItem?.clientimage}
-                                                    alt={brandItem?.title}
-                                                    width={210}
-                                                    height={90}
-                                                    layout="responsive"
-                                                    quality={70}
-                                                />
-                                            
+                                            <Image
+                                                src={brandItem?.clientimage}
+                                                alt={brandItem?.title}
+                                                width={210}
+                                                height={90}
+                                                layout="responsive"
+                                                quality={70}
+                                            />
                                         </Link>
                                     </div>
                                 </div>

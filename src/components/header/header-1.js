@@ -55,9 +55,7 @@ function HeaderOne() {
                                             }
                                         >
                                             <Link href="/">
-                                                
-                                                    <span>Home</span>
-                                                
+                                                <span>Home</span>
                                             </Link>
                                         </li>
                                         <li
@@ -68,9 +66,7 @@ function HeaderOne() {
                                             }
                                         >
                                             <Link href="/about">
-                                                
-                                                    <span>About</span>
-                                                
+                                                <span>About</span>
                                             </Link>
                                         </li>
                                         <li
@@ -81,9 +77,7 @@ function HeaderOne() {
                                             }
                                         >
                                             <Link href="/projects">
-                                                
-                                                    <span>Projects</span>
-                                                
+                                                <span>Projects</span>
                                             </Link>
                                         </li>
                                         <li
@@ -94,9 +88,7 @@ function HeaderOne() {
                                             }
                                         >
                                             <Link href="/posts">
-                                                
-                                                    <span>Posts</span>
-                                                
+                                                <span>Posts</span>
                                             </Link>
                                         </li>
                                         <li
@@ -107,9 +99,7 @@ function HeaderOne() {
                                             }
                                         >
                                             <Link href="/contact">
-                                                
-                                                    <span>Contact</span>
-                                                
+                                                <span>Contact</span>
                                             </Link>
                                         </li>
                                     </ul>
@@ -160,14 +150,12 @@ function HeaderOne() {
                             <li className="navbar-toggle flex justify-between items-center pb-[15px]">
                                 <div className="logo" onClick={showOffcanvas}>
                                     <Link href="/">
-                                        
-                                            <Image
-                                                src="/images/logo/logo-2.png"
-                                                alt="Logo"
-                                                width={70}
-                                                height={70}
-                                            />
-                                        
+                                        <Image
+                                            src="/images/logo/logo-2.png"
+                                            alt="Logo"
+                                            width={70}
+                                            height={70}
+                                        />
                                     </Link>
                                 </div>
                                 <button
@@ -181,11 +169,9 @@ function HeaderOne() {
                             {OffcanvasData.map((item) => (
                                 <li key={item.id} className={item.cName}>
                                     <Link href={item.path}>
-                                        
-                                            <span onClick={showOffcanvas}>
-                                                {item.title}
-                                            </span>
-                                        
+                                        <span onClick={showOffcanvas}>
+                                            {item.title}
+                                        </span>
                                     </Link>
                                 </li>
                             ))}

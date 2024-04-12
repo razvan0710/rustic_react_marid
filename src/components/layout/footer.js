@@ -32,14 +32,14 @@ function Footer() {
                                     <li>
                                         <Link href="mailto:hello@Rusticstudio.co">
                                             {/* <a className="hover:text-black transition-all"> */}
-                                                hello@Rusticstudio.co
+                                            hello@Rusticstudio.co
                                             {/* </a> */}
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="tel:+0084-912-3548-073">
                                             {/* <a className="hover:text-black transition-all"> */}
-                                                (+0084) 912-3548-073
+                                            (+0084) 912-3548-073
                                             {/* </a> */}
                                         </Link>
                                     </li>
@@ -130,7 +130,7 @@ function Footer() {
                                     </div>
                                     <Link href="https://themeforest.net/user/codecarnival/portfolio">
                                         {/* <a target="_blank"> */}
-                                            <span> CodeCarnival</span>
+                                        <span> CodeCarnival</span>
                                         {/* </a> */}
                                     </Link>
                                 </div>
@@ -169,14 +169,14 @@ function Footer() {
                                     <li className="mr-8">
                                         <Link href="/about">
                                             {/* <a className="text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]"> */}
-                                                Eng
+                                            Eng
                                             {/* </a> */}
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/about">
                                             {/* <a className="text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]"> */}
-                                                Fre
+                                            Fre
                                             {/* </a> */}
                                         </Link>
                                     </li>

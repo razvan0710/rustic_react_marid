@@ -32,29 +32,28 @@ function PostSidebar({ categories, tags }) {
                     <li className="mb-[15px]">
                         <Link href="/posts/magazine">
                             {/* <a className="hover:underline"> */}
-                                Layout & White-Spacing In Design For Magazine
+                            Layout & White-Spacing In Design For Magazine
                             {/* </a> */}
                         </Link>
                     </li>
                     <li className="mb-[15px]">
                         <Link href="/posts/sketch-pillow">
                             {/* <a className="hover:underline"> */}
-                                Look At The Sketch Pillow Unique By Scarlet
-                                Johanson
+                            Look At The Sketch Pillow Unique By Scarlet Johanson
                             {/* </a> */}
                         </Link>
                     </li>
                     <li className="mb-[15px]">
                         <Link href="/posts/quisque">
                             {/* <a className="hover:underline"> */}
-                                Visual Strategy Marketing
+                            Visual Strategy Marketing
                             {/* </a> */}
                         </Link>
                     </li>
                     <li>
                         <Link href="/posts/simple-design">
                             {/* <a className="hover:underline"> */}
-                                Summer Colorful Festival 2022
+                            Summer Colorful Festival 2022
                             {/* </a> */}
                         </Link>
                     </li>
@@ -69,7 +68,7 @@ function PostSidebar({ categories, tags }) {
                         <li className="mb-[15px] last:mb-0" key={category}>
                             <Link href={`/category/${category}`}>
                                 {/* <a className="hover:underline capitalize"> */}
-                                    {category}
+                                {category}
                                 {/* </a> */}
                             </Link>
                         </li>

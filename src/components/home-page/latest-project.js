@@ -12,7 +12,7 @@ function LatestProject({ projects }) {
                     </h2>
                     <Link href="/projects">
                         {/* <a className="text-[18px] text-secondary uppercase leading-[24px]"> */}
-                            All Projects
+                        All Projects
                         {/* </a> */}
                     </Link>
                 </div>

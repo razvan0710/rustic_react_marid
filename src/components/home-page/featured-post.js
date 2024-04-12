@@ -12,7 +12,7 @@ function FeaturedPost({ posts }) {
                     </h2>
                     <Link href="/posts">
                         {/* <a className="lm:text-[18px] text-[16px] text-secondary uppercase leading-[24px]"> */}
-                            All articles
+                        All articles
                         {/* </a> */}
                     </Link>
                 </div>

@@ -30,7 +30,7 @@ function HeroOne({ heroItems, settings }) {
                     <Slide className="hero-item" key={heroItem.id}>
                         <div className={heroImage}>
                             <Image
-                                src="/images/hero/1.jpg"
+                                src={heroItem?.image}
                                 alt={heroItem?.title}
                                 layout="fill"
                                 objectFit="cover"
@@ -50,7 +50,7 @@ function HeroOne({ heroItems, settings }) {
                                                         <span
                                                             target="_blank"
                                                             aria-label="Twitter"
-                                                        > 
+                                                        >
                                                             <TwitterIcon />
                                                         </span>
                                                     </Link>
@@ -85,13 +85,12 @@ function HeroOne({ heroItems, settings }) {
                                                 __html: heroItem?.heroCategory,
                                             }}
                                         />
-                                        <h
+                                        {/* <h1
                                             className="md:text-[100px] md:leading-[100px] text-[50px] leading-[1.2] text-white mb-[90px] hero-slidedown delay-[600ms]"
                                             dangerouslySetInnerHTML={{
                                                 __html: heroItem?.heroTitle,
                                             }}
-                                           
-                                        ></h>
+                                        ></h1> */}
                                         <div className="hero-slidedown delay-[1200ms]">
                                             <Link href="/about">
                                                 <span className="boxed-btn text-[18px] leading-[30px]">
